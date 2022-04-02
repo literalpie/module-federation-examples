@@ -36,7 +36,14 @@ module.exports = {
       exposes: {
         './Button': './src/Button',
       },
-      shared: ['react', 'react-dom'],
+      shared: ['react', 'react-dom', {
+        '@shared-context/shared-library': {
+          import: '@shared-context/shared-library',
+          requiredVersion: '0.0.1',
+        },
+      },
+
+      ],
     }),
     new HtmlWebpackPlugin({
       template: './public/index.html',

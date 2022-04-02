@@ -23,7 +23,11 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
+    "@types/lodash": "^4.14.181",
+    "lodash": "^4.17.21",
+    "my-rxjs": "../my-rxjs/my-rxjs-1.0.0.tgz",
     "react": "^16.13.0",
-    "react-dom": "^16.13.0"
+    "react-dom": "^16.13.0",
+    "rxjs": "^7.5.5"
   }
 }

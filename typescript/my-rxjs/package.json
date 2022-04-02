@@ -1,0 +1,13 @@
+{
+  "name": "my-rxjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack build"
+  },
+  "module": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
